@@ -1,0 +1,29 @@
+pip3 install django djangorestframework django-cors-headers
+
+django-admin startproject django_react_proj
+
+cd django_react_proj/
+
+
+python3 manage.py startapp students
+
+
+python3 manage.py makemigrations
+
+
+python3 manage.py migrate
+
+
+npx create-react-app students-fe
+
+
+cd students-fe
+
+
+npm install bootstrap reactstrap axios
+
+
+python3 manage.py runserver
+
+
+
